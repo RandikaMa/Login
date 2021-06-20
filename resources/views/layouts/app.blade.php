@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -65,6 +67,8 @@
             @yield('content')
         </main>
     </div>
+
+    
     <div class="footer">
         <p2>Asura Lanka</p2>
 </div>

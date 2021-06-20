@@ -22,7 +22,7 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', function () {
     return view('welcome');
-})->middleware('auth');
+});
 
 
 Route::get('/register', 'App\Http\Controllers\Auth\RegisterController@register')->name('register');

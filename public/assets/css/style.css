@@ -22,6 +22,26 @@ body {
     border-radius: 20mm;
     background-color: rgb(67, 218, 245);
 }
+.app{
+    overflow: hidden;
+}
+h1{
+    font-size: 5.5em;
+    text-align: center;
+    color: cornflowerblue;
+    font-family:Unispace;
+    padding-top:0em;
+    padding-bottom: 3em;
+   
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -52em;
+    width: 10%;
+    height: 10%;
+}
 .form-signin {
     width: 100%;
     max-width: 480px;
